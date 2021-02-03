@@ -61,7 +61,7 @@ header {
 }
 
 .about *{
-  margin-top: 15px; 
+  margin-top: 15px;
 }
 
 .about_text {
@@ -72,4 +72,5 @@ header {
 .about_button {
   margin: auto;
   max-width: 10%;
+  margin-bottom: 20px;
 }
