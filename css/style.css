@@ -52,3 +52,24 @@ header {
   margin-top: 20px;
   margin-right: 20px;
 }
+
+/* Sezione "About" */
+.about {
+  margin: auto;
+  margin-top: 40px;
+  background-color: #1abc9c;
+}
+
+.about *{
+  margin-top: 15px; 
+}
+
+.about_text {
+  max-width: 80%;
+  margin: auto;
+}
+
+.about_button {
+  margin: auto;
+  max-width: 10%;
+}
