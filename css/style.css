@@ -43,3 +43,12 @@ header {
 .placeholder_subtitle {
   font-size: 25px;
 }
+
+/* Sezione "Portfolio" */
+.portfolio {
+  width: 380px;
+  height: 200px;
+  background-color: #17a2b8;
+  margin-top: 20px;
+  margin-right: 20px;
+}
