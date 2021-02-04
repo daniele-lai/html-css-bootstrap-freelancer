@@ -16,6 +16,11 @@ header {
   font-weight: 700;
 }
 
+#portfolio, #about, #contact {
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
 /* Menù navigazione */
 
 .header_blue {
@@ -81,27 +86,35 @@ header {
   margin: auto;
   margin-top: 40px;
   background-color: #1abc9c;
-}
-
-.about_box *{
-  margin-top: 15px;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
 }
 
 .about_text {
+  font-size: 20px;
   max-width: 80%;
   margin: auto;
+  padding: 35px 0;
 }
 
 .about_button {
   margin: auto;
-  max-width: 10%;
+  max-width: 27%;
   margin-bottom: 20px;
 }
+
+.about_button .btn:hover {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
 
 .download_btn {
   background-color: #1abc9c;
   color: #fff;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
+  padding: 16px;
+  font-weight: 700;
 }
 
 /* Contact */
@@ -141,6 +154,9 @@ footer li {
   }
   .section_title {
     font-size: 48px;
+  }
+  .about_button {
+    max-width: 18%;
   }
 }
 
