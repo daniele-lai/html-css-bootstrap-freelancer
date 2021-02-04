@@ -103,12 +103,6 @@ header {
   margin-bottom: 20px;
 }
 
-.about_button .btn:hover {
-  background-color: #f8f9fa;
-  color: #212529;
-}
-
-
 .download_btn {
   background-color: #1abc9c;
   color: #fff;
@@ -117,12 +111,28 @@ header {
   font-weight: 700;
 }
 
+.download_btn:hover {
+  background-color: #f8f9fa;
+  color: #212529;
+}
 /* Contact */
+.form_boot {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.form_boot:not(textarea) {
+  line-height: 60px;
+}
+
 .send {
   margin-bottom: 40px;
   background-color: #1abc9c;
   color: #fff;
   border: 1px solid #1abc9c;
+  padding: 20px 30px;
 }
 
 /* Footer */
