@@ -11,6 +11,11 @@ header {
   width: 100%;
 }
 
+.section_title {
+  font-size: 36px;
+  font-weight: 700;
+}
+
 /* Menù navigazione */
 
 .header_blue {
@@ -63,11 +68,12 @@ header {
 
 /* Sezione "Portfolio" */
 .portfolio {
-  width: 380px;
-  height: 200px;
-  background-color: #17a2b8;
+  padding: 0 24px;
   margin-top: 20px;
-  margin-right: 20px;
+}
+.portfolio img {
+  max-width: 100%;
+  border-radius: 10px;
 }
 
 /* Sezione "About" */
@@ -133,6 +139,9 @@ footer li {
   .placeholder_subtitle {
     font-size: 24px;
   }
+  .section_title {
+    font-size: 48px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -140,21 +149,17 @@ footer li {
    padding: 5px;
  }
 
- .portfolio {
-   margin-right: 10px;
- }
 }
 
 @media screen and (max-width:767px) {
   .header_blue {
     padding: 5px;
   }
-
   .placeholder_subtitle {
     font-size: 20px;
   }
   .portfolio {
-    width: 95%;
+    padding: 0 125px
   }
   .about_text textarea {
     width: 100%;
