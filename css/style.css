@@ -1,6 +1,11 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 header {
   background-color: #2c3e50;
   color: #fff;
+  font-weight: 700;
 }
 
 /* Menù navigazione */
@@ -10,21 +15,25 @@ header {
 
 .header_title {
   font-size: 28px;
+  font-weight: 700;
 }
 
-.header_list {
+.header_list a {
+  color: #fff;
   font-size: 16px;
-  padding: 16px;
+  padding: 27px 16px 0;
+}
+
+.header_list a:hover {
+  color: #1abc9c;
+  text-decoration: none;
 }
 
 .hamburger {
-  display: none;
-  height: 30px;
-  width: 30px;
-  border: 1px solid #fff;
-  border-radius: 10px;
-  margin-left: 95%;
+  background-color: #1abc9c;
+  color: #fff;
   margin-top: 15px;
+  font-weight: 700;
 }
 
 /* Jumbotron */
@@ -64,13 +73,13 @@ header {
 }
 
 /* Sezione "About" */
-.about {
+.about_box {
   margin: auto;
   margin-top: 40px;
   background-color: #1abc9c;
 }
 
-.about *{
+.about_box *{
   margin-top: 15px;
 }
 
@@ -135,12 +144,7 @@ footer li {
   .header_blue {
     padding: 5px;
   }
-  .nav_right {
-    display: none;
-  }
-  .hamburger {
-    display: block;
-  }
+
   .placeholder_subtitle {
     font-size: 20px;
   }
