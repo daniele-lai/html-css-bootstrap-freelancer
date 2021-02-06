@@ -209,9 +209,12 @@ footer li {
 }
 
 .social {
-  border: 1px solid;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #fff;
+  line-height: 48px;
   border-radius: 50%;
-  padding: 8px;
+  padding: 7px 9px;
   color: #f8f9fa;
 }
 
