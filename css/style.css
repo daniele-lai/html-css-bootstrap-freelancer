@@ -7,8 +7,10 @@ header {
   color: #fff;
   font-weight: 700;
   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   z-index: 1;
-  width: 100%;
 }
 
 .section_title {
@@ -28,6 +30,12 @@ header {
 .star {
   font-size: 30px;
   margin: 20px 0;
+}
+
+/* Button hover */
+.hamburger:hover, .send:hover {
+  background-color: #159a80;
+  color: #fff;
 }
 
 /* Menù navigazione */
@@ -176,6 +184,10 @@ header {
   color: #fff;
   border: 1px solid #1abc9c;
   padding: 20px 30px;
+}
+
+.send:hover {
+  border-color: #148f77;
 }
 
 /* Footer */
